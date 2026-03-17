@@ -21,7 +21,7 @@ Based on the experimental results, **XGBoost** provided the most robust balance 
 | :--- | :--- | :--- | :--- | :--- |
 | Logistic Regression | 0.06 | 0.92 | 0.11 | 0.95 |
 | Random Forest | 0.96 | 0.73 | 0.83 | 0.87 |
-| **XGBoost** | **0.33** | **0.87** | **0.48** | **0.98** |
+| **XGBoost** | **0.33** | **0.87** | **0.48** | **0.93** |
 
 ## 📁 Repository Structure
 * `fraud_detection.py`: Python source code for data preprocessing and model training.
