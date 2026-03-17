@@ -1,4 +1,4 @@
-# Comparative Study: ML for Anomaly Detection (Credit Card Fraud)
+# ML-Anomaly-Detection-Study
 
 ## 📌 Project Overview
 This repository contains a comparative analysis of three supervised machine learning algorithms—**Logistic Regression**, **Random Forest**, and **XGBoost**—applied to the detection of rare fraudulent transactions in a highly imbalanced dataset.
@@ -11,7 +11,7 @@ In robotics, finding a "fraudulent" transaction is mathematically identical to d
 
 ## 🛠 Tech Stack
 * **Language:** Python
-* **Libraries:** Scikit-learn, XGBoost, Imbalanced-learn (SMOTE), Pandas, Matplotlib.
+* **Libraries:** Scikit-learn, XGBoost, Imbalanced-learn (SMOTE), Pandas, Matplotlib, Seaborn.
 
 ## 📊 Performance Comparison
 Based on the experimental results, **XGBoost** provided the most robust balance of discriminative power and recall.
@@ -24,15 +24,17 @@ Based on the experimental results, **XGBoost** provided the most robust balance 
 | **XGBoost** | **0.33** | **0.87** | **0.48** | **0.98** |
 
 ## 📁 Repository Structure
-* `/src`: Contains the Python source code for data preprocessing and model training.
-* `/docs`: Includes the full technical project report (PDF).
+* `fraud_detection.py`: Python source code for data preprocessing and model training.
+* `dataset_sample.png`: Visual overview of the processed dataset.
+* `A Comparative Study...pdf`: Full technical project report.
+* `LICENSE`: MIT License.
 * `README.md`: Project overview and results.
 
 ## ⚙️ Usage
 1. Clone this repository.
-2. Install dependencies: `pip install -r requirements.txt`.
+2. Install dependencies: `pip install pandas scikit-learn imbalanced-learn xgboost matplotlib seaborn`.
 3. Download the dataset from [Kaggle](https://www.kaggle.com).
-4. Run the analysis script: `python fraud_detection_analysis.py`.
+4. Run the analysis script: `python fraud_detection.py`.
 
 ---
 *Note: This project was completed as part of postgraduate studies.*
